@@ -19,5 +19,5 @@
     "smartinspectpython>=3.0.38",
     "spotifywebapipython>=1.0.295"
   ],
-  "version": "1.0.222"
+  "version": "1.0.223"
 }

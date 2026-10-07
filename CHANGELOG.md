@@ -6,6 +6,10 @@ Change are listed in reverse chronological order (newest to oldest).
 
 <span class="changelog">
 
+###### [ 1.0.223 ] - 2026/10/06
+
+  * Updated `media_player.update` method to account for possible rate limit exceptions when calling the Spotify Web API.  The previous fix for this (1.0.218) did not account for all logic paths while trying to prevent repeated calls (every second) to the Spotify Web API when a Spotify rate-limit error occured.
+
 ###### [ 1.0.222 ] - 2026/10/01
 
   * Updated `manifest.json` to remove the following requirements due to new HASSFest validation errors (as of 2026/10/01): `urllib3`,`requests`,`zeroconf`,`pillow`.
